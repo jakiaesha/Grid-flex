@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Table</title>
+  <style>
+    table{
+      border-collapse: collapse;
+      text-align: center;
+    }
+    td,th{
+      border: 1px solid black;
+      padding: 5px;
+      width: 100px;
+    }
+    th{
+      background-color: rgb(236, 252, 187);
+    }
+    tbody, tfoot{
+      background-color: rgb(200, 241, 252);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h2>Table Html</h2>
+    <table>
+      <caption><b>Football Players</b></caption>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Position</th>
+          <th>Nationality</th>
+        </tr>
+      </thead>
+        <tbody>
+          <tr>
+            <td>messi</td>
+            <td>star</td>
+            <td>argentina</td>
+          </tr>
+          <tr>
+            <td>ronaldo</td>
+            <td>star</td>
+            <td>portugal</td>
+          </tr>
+          <tr>
+            <td>neymar</td>
+            <td>star</td>
+            <td>brazil</td>
+          </tr>
+        </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3">This is the footer</td>
+        </tr>
+      </tfoot>
+    </table>
+    <ul>
+      <li>table:table</li>
+      <li>table head:thead</li>
+      <li>table body:tbody</li>
+      <li>table row:tr</li>
+      <li>table data:td</li>
+      <li>table foot:tfoot</li>
+      <li>table header:th</li>
+    </ul>
+  </main>
+</body>
+</html>

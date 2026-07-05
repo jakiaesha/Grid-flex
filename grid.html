@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grid Layout</title>
+  <style>
+    .container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      
+     }
+    .box {
+      background-color: #debbfb;
+      height: 500px;
+      padding: 10px;
+      border-radius: 20px;
+       }
+    .box button{
+      border-radius: 100px;
+      width: 300px;
+      height: 30px;
+      background-color: rgb(252, 239, 220);
+    }   
+    main{
+      text-align: center;
+    }
+    main button{
+      border: 50px;
+      border-radius: 5px;
+    }
+    .box h1,h6{
+      display: inline;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Try plus with a special offer</h1>
+    <button>Personal</button><button>Business</button>
+
+  </main> <br>
+  <div class="container">
+    <div class="box"><h2>Free</h2>
+      <h1>0</h1><h6>USD$/month</h6>
+      <p>See what AI can do</p>
+      <button>Your current plan</button>
+      <ul>
+        <li>Core model</li>
+        <li>Limited messages and uploads</li>
+        <li>Limited image creation</li>
+        <li>Limited memory</li>
+      </ul>
+    </div>
+    <div class="box"><h2>Go</h2><h1>5</h1><h6>USD$/month</h6>
+      <p>Keep chatting with expanded access</p>
+      <button>Upgrage to go</button>
+      <ul>
+        <li>Core model</li>
+        <li>More messages and uploads</li>
+        <li>More image creation</li>
+        <li>Longer memory</li>
+        <li>Expanded voice mode</li>
+      </ul>
+    </div>
+    <div class="box"><h2>Plus</h2><h1>10</h1><h6>USD$/month</h6>
+      <p>Keep chatting with expanded access</p>
+      <button>Claim specail offer</button>
+      <ul>
+        <li>Advanced models</li>
+        <li>Advanced image creation with Thinking</li>
+        <li>Expanded memory across chats</li>
+        <li>Codex coding agent</li>
+        <li>Expanded deep research</li>
+        <li>Projects and custom GPTs</li>
+      </ul>
+    </div>
+    <div class="box"><h2>Pro</h2><h1>115</h1><h6>USD$/month</h6>
+      <p>Maximize your productivity</p>
+      <button>Upgrade to pro</button>
+      <p>Everything in Plus and:</p>
+      <ul>
+        <li>5x or 20x more usage than Plus</li>
+        <li>Frontier Pro mode</li>
+        <li>Maximum access to Codex</li>
+        <li>Maximum deep research</li>
+        <li>Unlimited core chat</li>
+        <li>Unlimited and faster image creation</li>
+        <li>Maximum memory and context</li>
+        <li>Early access to experimental features</li>
+      </ul>
+    </div>
+  </div>
+
+</body>
+</html>
